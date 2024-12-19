@@ -9,30 +9,49 @@ a{
 body{
     background-color: var(--cor_fundo);
     color:var(--cor_letra);
+    text-align: center;
 }
 button{
     color: white;
     background-color:var(--cor_button);
     font:bolder 1.5em 'times new roman';
+    cursor: pointer;
 }
 button:hover{
-    background-color: #be9050;
+    background-color:#b1874e ;
     height: 50px;
-    transition: 5s;
+    transition: 0.5s;
 }
 section{
+    margin: 20px 10px;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
     text-align: center;
 }
 h1{
    font:normal 5em 'times new roman'; 
 }
-h2{
+#h2_começo{
     font:normal 3em 'times new roman';
 }
 ul{
     list-style-type: none;
+}
+li{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font:bold 3em 'times new roman';
+    color:var(--cor_letra)
+}
+.h2_assunto{
+    font:normal 5em 'times new roman';
+    display: flex;
+    text-indent: 20px;
+}
+.voltar{
+    margin-top: 100px;
+    margin-bottom: -20px;
 }
