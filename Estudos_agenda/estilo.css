@@ -44,7 +44,7 @@ li{
     align-items: center;
     align-content: center;
     font:bold 3em 'times new roman';
-    color:var(--cor_letra)
+    color:var(--cor_letra);
 }
 .h2_assunto{
     font:normal 5em 'times new roman';
@@ -54,4 +54,44 @@ li{
 .voltar{
     margin-top: 100px;
     margin-bottom: -20px;
+}
+.busca{
+    height:30px;
+    width: 600px;
+    text-align: justify;
+    margin-right: 1200px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font: normal 1.5em 'times new roman';
+}
+.busca:focus{
+    outline: none;
+}
+.busca::placeholder{
+    color: white;
+    font:lighter 1em 'arial';
+}
+.item{
+    display: flex;
+    align-items: center;
+    background-color:var(--cor_fundo);
+    padding: 8px 16px 8px 8px;
+    border-radius: 24px;
+    gap:8px; /* Espaçamento entre item flexbox*/
+}
+.item-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-width: 32px;
+    min-height: 32x;
+    background-color: var(--cor_letra);
+    color: white;
+    padding: 5px;
+}
+#noResult{
+    display: none;
+    text-align: center;
 }

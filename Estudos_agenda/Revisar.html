@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisão</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -11,17 +12,27 @@
         <article>
             <h2 class="h2_assunto">.Revisar por Instituições</h2>
             <ul>
-                <a href="#"><li>OBMEP</li></a>
-                <a href="#"><li>IFMA</li></a>
-                <a href="#"><li>ESCOLA</li></a>
+                <a href="#" class="Assuntos"><li>OBMEP</li></a>
+                <a href="#" class="Assuntos"><li>IFMA</li></a>
+                <a href="#" class="Assuntos"><li>ESCOLA</li></a>
             </ul>
         </article>
         <article>
             <h2 class="h2_assunto">.Revisar por conteúdo</h2>
+            <div class="item">
+                <div class="item-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input type="search" name="" id="b" class="busca" placeholder="Pesquise algo">                
+            </div>
+
             <ul>
-                <a href="#"><li>Função</li></a>
-                <a href="#"><li>Combinatória</li></a>
-                <a href="#"><li>Programação</li></a>
+                <a href="#" class="Assuntos"><li>Função</li></a>
+                <a href="#" class="Assuntos"><li>Combinatória</li></a>
+                <a href="#" class="Assuntos"><li>Programação</li></a>
+                <li name="noResult">
+                    <p>Nenhum resultado encontrado</p>
+                </li>
             </ul>
         </article>
         <a href="index.html">
